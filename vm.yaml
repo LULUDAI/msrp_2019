@@ -1,0 +1,2 @@
+mongo_uri: "mongodb://128.113.54.252:27017/"
+mongo_db: "test_crunchbase"    #crunchbase_production has all data
