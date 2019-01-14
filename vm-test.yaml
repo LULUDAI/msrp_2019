@@ -1,5 +1,5 @@
 mongo_uri: 'mongodb://128.113.54.252:27017/'
-mongo_db: 'crunchbase_production'
+#mongo_db: 'win_crunchbase' 
 organizations:
     - 'data.properties.permalink'
     - 'data.properties.permalink_aliases'
@@ -36,6 +36,8 @@ organizations:
     - 'data.properties.updated_at'
     - 'data.relationships.websites.items'
     - 'data.relationships.founders.items'
+
+    
 acquisitions:
       - 'data.relationships.acquiree.item.properties.permalink_aliases'
       - 'data.relationships.acquiree.item.properties.web_path'
